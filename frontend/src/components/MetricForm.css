@@ -149,14 +149,12 @@ body {
   font-size: 24px;
   margin: 0 10px;
 }
-
 /* העדכון עבור המצפן */
 .hsi-indicator {
   position: relative;
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  background-color: var(--light-blue);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -192,47 +190,55 @@ body {
 .compass-markers .marker-315 {
   position: absolute;
   font-size: 14px;
-  color: var(--primary-blue);
+  color: #e74c3c;
 }
 
 .marker-0 {
   top: 10px;
   left: 50%;
   transform: translateX(-50%);
+  color: #e74c3c;
 }
 .marker-45 {
   top: 10%;
   left: 85%;
   transform: translateX(-50%);
+  color: #e74c3c;
 }
 .marker-90 {
   top: 50%;
   left: 100%;
   transform: translateY(-50%) translateX(-100%);
+  color: #e74c3c;
 }
 .marker-135 {
   top: 90%;
   left: 85%;
   transform: translateX(-50%);
+  color: #e74c3c;
 }
 .marker-180 {
   top: 100%;
   left: 50%;
   transform: translateX(-50%) translateY(-100%);
+  color: #e74c3c;
 }
 .marker-225 {
   top: 90%;
   left: 15%;
   transform: translateX(-50%);
+  color: #e74c3c;
 }
 .marker-270 {
   top: 50%;
   left: 0;
+  color: #e74c3c;
   transform: translateY(-50%) translateX(-100%);
 }
 .marker-315 {
   top: 10%;
   left: 15%;
+  color: #e74c3c;
   transform: translateX(-50%);
 }
 
@@ -250,6 +256,6 @@ body {
   position: absolute;
   width: 2px;
   height: 90px;
-  background-color: #666;
+  background-color: #e74c3c;
   transform-origin: 50% 100%;
 }
