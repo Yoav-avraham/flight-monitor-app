@@ -32,7 +32,7 @@ const MetricForm = () => {
     setErrorMessage(''); // אפס את הודעת השגיאה אם אין חורג
 
     try {
-      const response = await axios.post('http://localhost:5000/add-metrics', {
+      await axios.post(`${process.env.REACT_APP_SERVER_IP}/add-metrics`, {
         altitude,
         his,
         adi,
