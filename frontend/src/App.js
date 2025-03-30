@@ -1,6 +1,6 @@
-// src/App.js
-import React from 'react';
-import MetricForm from './components/MetricsForm';
+
+import React from 'react';//import react lib
+import MetricForm from './components/MetricsForm';//import component
 
 function App() {
   return (
@@ -10,4 +10,4 @@ function App() {
   );
 }
 
-export default App;
+export default App;// Export the App component so it can be used elsewhere in the application

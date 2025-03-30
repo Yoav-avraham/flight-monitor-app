@@ -15,7 +15,7 @@ const MetricForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // בדיקות טווח
+    //range validation
     if (altitude < 0 || altitude > 4000) {
       setErrorMessage('Altitude must be between 0 and 4000 meters.');
       return;
@@ -29,8 +29,9 @@ const MetricForm = () => {
       return;
     }
 
-    setErrorMessage(''); // אפס את הודעת השגיאה אם אין חורג
-
+    setErrorMessage(''); //reset error if the range is ok
+     
+    //sending the data to the route adding it to the db
     try {
       await axios.post(`${process.env.REACT_APP_SERVER_IP}/add-metrics`, {
         altitude,

@@ -242,7 +242,6 @@ body {
   transform: translateX(-50%);
 }
 
-/* חץ דינמי של המצפן */
 .hsi-dynamic-arrow {
   position: absolute;
   width: 2px;
@@ -251,7 +250,6 @@ body {
   transform-origin: 50% 100%;
 }
 
-/* חץ קבוע */
 .hsi-fixed-arrow {
   position: absolute;
   width: 2px;

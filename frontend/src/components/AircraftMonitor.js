@@ -7,7 +7,7 @@ const AircraftMonitor = ({ metricsData }) => {
   const his = Number(metricsData.his) || 0;
   const adi = Number(metricsData.adi) || 0;
 
-  // Calculate altitude position with more precise scaling
+  // Calculate altitude position with precise scaling
   const calculateAltitudePosition = (alt) => {
     return Math.min(Math.max((alt / 4000) * 300, 0), 300);
   };
